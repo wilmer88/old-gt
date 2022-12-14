@@ -9,7 +9,7 @@ function CardBody(props) {
       <p className="card-text">Click Count: {props.count}</p>
       <button className="btn btn-primary" onClick={props.handleIncrement}>
         Increment
-      </button>{" "}
+      </button>
       <button className="btn btn-danger" onClick={props.handleDecrement}>
         Decrement
       </button>

@@ -65,5 +65,5 @@ print('=' * 18)
 # Finally--you can prompt a user for input at the command line, and save their
 # input, with the "input" function. It takes a string to print, and returns the
 # value the user types, as a string.
-example = input('Tell me something...I\'ll say it back. ')
-print(example)
+
+# print(example)

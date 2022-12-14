@@ -35,3 +35,7 @@
 # response, but don't worry about doing anything with it yet!
 ###############################################################################
 # ...Your Code Here...
+
+# student_first_name = input('')
+# print(student_first_name)
+print('Anyway...Let\'s take a look at Python-specific math operators.')

@@ -23,6 +23,6 @@ function App() {
       </button>
     </div>
   );
-}
+};
 
 export default App;

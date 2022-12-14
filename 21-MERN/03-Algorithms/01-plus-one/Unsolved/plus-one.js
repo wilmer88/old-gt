@@ -2,14 +2,101 @@
 // Return the new array
 // Solve without joining the digits array and modify the original array in place
 
+
+// var plusOne = function(digits) {
+//   var carry = 1;
+
+//   for (var i = digits.length - 1; i >= 0; i--) {
+//     var plusOne = digits[i] + carry;
+//     var sum;
+//     carry = 0;
+
+//     if (plusOne > 9) {
+//       carry = 1;
+//       sum = 10 - plusOne;
+//     } else {
+//       sum = plusOne;
+//     }
+
+//     digits[i] = sum;
+//   }
+
+//   if (carry) {
+//     digits.unshift(carry);
+//   }
+
+//   return digits;
+// };
+
 var plusOne = function(digits) {
-   console.log(digits);
-   () =>
-     digits.pop();
-     console.log(digits);
+   // console.log(digits);
+   if(digits.length == 0){
+    // console.log(digits)
+    digits.push(1) 
+
+  } 
+  console.log(digits.length -1)
+
+  
+
+
  
-() =>
- digits.unshift(1);
- console.log(digits);
+//     for(let i = 0; i < digits.length; i++){
+//       console.log(digits[i]);
+//     //   console.log(digits[i].split())
+
+//     //   // digits[i].forEach(element => {
+//     //   //   element = element + 1
+  
+//     //   // });
+      
+//     //   // return console.log(digits)
+    
+      
+//     }
+    
+  
+ 
+
+  
+    
+
+
+
+
+
+  // 
+  // if(digits.length == 0){
+  //   return digits[1]
+  // }
+   
+  //  for(let i=0; i < digits.length; i++){
+  //   console.log(digits[i])
+
+  //  }
+  //  return digits
+
+//    () =>
+//      digits.pop();
+//      console.log(digits);
+ 
+// () =>
+//  digits.unshift(1);
+//  console.log(digits);
+
+// return console.log(digits);
  
 };
+
+
+// var plusOne = function(digits) {
+//    console.log(digits);
+//    () =>
+//      digits.pop();
+//      console.log(digits);
+ 
+// () =>
+//  digits.unshift(1);
+//  console.log(digits);
+ 
+// };
