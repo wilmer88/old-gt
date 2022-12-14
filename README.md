@@ -35,3 +35,65 @@ For a closer preview of what we explore in each unit of the boot camp, dive into
 * Activities you’ll complete and what skills they focus on
 * Common interview questions related to that week’s material
 * Helpful resources if you want to get ahead or gain more experience after the unit
+
+
+
+
+
+
+
+<!-- Program Design and Development	3 -->
+
+ 	
+<!-- CIST 1210	Introduction to Oracle Databases	4 -->
+
+OR	
+CIST 1220	Structured Query Language (SQL)	4
+
+ 	
+CIST 1510	Web Development I	3
+
+CIST 1520	Scripting Technologies	3
+
+CIST 1530	Web Graphics I	3
+
+CIST 2550	Web Development II	3
+
+<!-- CIST 1601	Information Security Fundamentals	3 -->
+
+CIST 2510	Web Technologies	3
+
+CIST xxxx	Elective	3
+
+ 	
+CIST 2541	Web Animation II	3
+
+OR	
+CIST 2531	Web Graphics II	3
+
+ 	
+CIST 2560	Web Application Programming I	4
+
+OR	
+CIST 2570	Open Source Web Application Programming I	4
+
+OR	
+<!-- CIST 2381	Mobile Application Development	4 -->
+
+OR	
+<!-- CIST 2371	Java Programming I	4 -->
+
+OR	
+<!-- CIST 2311	Visual Basic I	4 -->
+
+OR	
+<!-- CIST 2351	PHP Programming I	4 -->
+
+OR	
+<!-- CIST 2341	C# Programming I	4 -->
+
+OR	
+CIST 2580	Interactive and Social Apps Integration	4
+
+
+15 47+

@@ -1,14 +1,14 @@
-function Child(name, age) {
-  if (typeof name !== "string" || !name.trim().length) {
+function Child(joto, monkeyAge ) {
+  if (typeof joto !== "string" || !joto.trim().length) {
     throw new Error("Expected parameter 'name' to be a non-empty string");
   }
 
-  if (typeof age !== "number" || isNaN(age) || age < 0) {
+  if (typeof monkeyAge  !== "number" ||  monkeyAge  < 0) {
     throw new Error("Expected parameter 'age' to be a non-negative number");
   }
 
-  this.name = name;
-  this.age = age;
+  this.joto = joto;
+  this.monkeyAge = monkeyAge ;
 }
 
 module.exports = Child;
