@@ -5,8 +5,7 @@ describe("DayCare", () => {
   describe("Initialization", () => {
     it("should create an object with 'children' array, 'capacity' number, and 'ageLimit' number", () => {
       const dayCare = new DayCare();
-
-      expect(dayCare).toEqual({ children: [], capacity: 3, ageLimit: 6 });
+      expect(dayCare).toEqual({ children: [], capacity: 3, ageLimit: 36 });
     });
   });
 
@@ -14,19 +13,15 @@ describe("DayCare", () => {
     it("should add a child to the 'children' array", () => {
       const child = new Child("Tammy", 1);
       const dayCare = new DayCare();
-
       dayCare.addChild(child);
-
       expect(dayCare.children.length).toEqual(1);
       expect(dayCare.children[0]).toBe(child);
     });
 
     it("should not add a child over the 'ageLimit'", () => {
-      const child = new Child("Tammy", 8);
+      const child = new Child("Tammy", 58);
       const dayCare = new DayCare();
-
       dayCare.addChild(child);
-
       expect(dayCare.children.length).toEqual(0);
     });
 
@@ -38,9 +33,7 @@ describe("DayCare", () => {
         new Child("Mark", 2),
         new Child("Alvin", 1)
       ];
-
       dayCare.addChild(child);
-
       expect(dayCare.children.length).toEqual(3);
     });
 
@@ -52,8 +45,22 @@ describe("DayCare", () => {
         const dayCare = new DayCare();
         dayCare.addChild();
       };
-
       expect(cb).toThrowError(err);
+    });
+
+    it("should call console.log if at capacity", () => {
+      const dayCare = new DayCare();
+      const child = new Child("Alice", 4);
+      dayCare.children = [
+        new Child("Tammy", 1),
+        new Child("Mark", 2),
+        new Child("Alvin", 1)
+      ];
+      const muecka = jest.spyOn(console,"log");
+      muecka.mockImplementation(()=>{});
+      dayCare.addChild(child);
+      expect(muecka).toHaveBeenCalled();
+      muecka.mockRestore();
     });
   });
 

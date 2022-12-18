@@ -25,7 +25,7 @@ describe("Child", () => {
     {
        const noMonkeyAgeEntry = ()=> new Child("wilmer");
        const errorcito = new Error("Expected parameter 'age' to be a non-negative number");
-        expect(noMonkeyAgeEntry).toThrowError(errorcito);
+       expect(noMonkeyAgeEntry).toThrowError(errorcito);
     })
     it("should throw error if no joto was added", () =>
     {

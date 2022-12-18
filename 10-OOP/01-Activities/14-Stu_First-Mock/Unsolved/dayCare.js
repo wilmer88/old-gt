@@ -3,7 +3,7 @@ const Child = require("./child");
 function DayCare() {
   this.children = [];
   this.capacity = 3;
-  this.ageLimit = 6;
+  this.ageLimit = 36;
 }
 
 DayCare.prototype.addChild = function(child) {
