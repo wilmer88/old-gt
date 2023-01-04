@@ -26,7 +26,7 @@ Being employer-competitive means starting now to position yourself as a develope
 
 Peruse open source projects to get a feel for what's out there. Pay attention to what other developers write in their commit messages. You can start by reviewing the following projects on GitHub:
 
-* [ChartJS](https://github.com/chartjs/Chart.js)
+* [ChartJS](https://github.com-/chartjs/Chart.js)
 
 * [D3js](https://github.com/d3/d3)
 
