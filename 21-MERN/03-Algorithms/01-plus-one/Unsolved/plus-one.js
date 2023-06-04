@@ -29,20 +29,52 @@
 // };
 
 var plusOne = function(digits) {
-   // console.log(digits);
-   if(digits.length == 0){
-    // console.log(digits)
-    digits.push(1) 
+  
+  if(digits[digits.length -1] == 9){
 
-  } 
-  console.log(digits.length -1)
+    console.log("entered case");
+
+
+    for(let i = 0; i < digits.length; i++){
+      if(digits[digits.length -1]== 9 || digits[digits.length -2] == 9 || digits[digits.length -2] == 9 ){
+        digits[digits.length -1] = 0;
+        digits[digits.length -2] = 0;
+      };
+   };
+
+   digits.unshift(1);
+     return digits;
+  };
+
+  if (digits.length > 0) {
+    digits[digits.length -1] = digits[digits.length -1] + 1;
+    return digits
+
+  }
+  
+  if(digits.length == 0){
+    // console.log(digits)
+    digits.push(1) ;
+    return digits
+
+  }
+
+
+
+
+
+  
+
+  
+  
 
   
 
 
+
+
  
-//     for(let i = 0; i < digits.length; i++){
-//       console.log(digits[i]);
+
 //     //   console.log(digits[i].split())
 
 //     //   // digits[i].forEach(element => {
@@ -53,7 +85,7 @@ var plusOne = function(digits) {
 //     //   // return console.log(digits)
     
       
-//     }
+    // }
     
   
  
